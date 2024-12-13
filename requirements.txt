@@ -1,0 +1,11 @@
+langchain
+langchain_community
+openai
+
+streamlit
+google-generativeai
+python-dotenv
+joblib
+scikit-learn
+nltk
+praw

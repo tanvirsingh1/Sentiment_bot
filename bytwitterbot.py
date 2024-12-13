@@ -23,9 +23,9 @@ gemini_model = genai.GenerativeModel("gemini-pro")
 chat = gemini_model.start_chat(history=[])
 
 reddit = praw.Reddit(
-    client_id='b2ig2efkrpUXd7FW-ytxNA',
-    client_secret='I26zHjnecz0O_xjKv7Yhn7Ggs4tVjw',
-    user_agent='Due_Plastic_4892'
+    client_id=os.getenv(("Client_ID")),
+    client_secret=os.getenv(("Client_Secret")),
+    user_agent=os.getenv(("Due_Plastic_4892")),
 )
 
 
